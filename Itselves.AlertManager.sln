@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{160EDFDC-2016-4E22-857C-AAF0E808D79C}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{12ECD37D-E24E-4E20-87D7-2505D63E4AA1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		Directory.Packages.props = Directory.Packages.props
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA532A85-85FC-4DD7-B44D-F9203A01C09C}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Directory.Build.props = tests\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager", "src\Itselves.AlertManager\Itselves.AlertManager.csproj", "{9C413619-E4D9-4FA2-A7DB-F917315121FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Prometheus", "src\Itselves.AlertManager.Prometheus\Itselves.AlertManager.Prometheus.csproj", "{634DCD51-C3BE-4569-8F75-A0280F529159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Prometheus.Tests", "tests\Itselves.AlertManager.Prometheus.Tests\Itselves.AlertManager.Prometheus.Tests.csproj", "{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C413619-E4D9-4FA2-A7DB-F917315121FC} = {160EDFDC-2016-4E22-857C-AAF0E808D79C}
+		{634DCD51-C3BE-4569-8F75-A0280F529159} = {160EDFDC-2016-4E22-857C-AAF0E808D79C}
+		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C413619-E4D9-4FA2-A7DB-F917315121FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C413619-E4D9-4FA2-A7DB-F917315121FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C413619-E4D9-4FA2-A7DB-F917315121FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C413619-E4D9-4FA2-A7DB-F917315121FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634DCD51-C3BE-4569-8F75-A0280F529159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634DCD51-C3BE-4569-8F75-A0280F529159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634DCD51-C3BE-4569-8F75-A0280F529159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634DCD51-C3BE-4569-8F75-A0280F529159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
