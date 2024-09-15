@@ -1,5 +1,7 @@
 # Itselves.AlertManager
 
+[![publish](https://github.com/maximiliysiss/itselves.alertmanager/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/maximiliysiss/itselves.alertmanager/actions/workflows/dotnet.yml)
+
 .NET Library for alert manager
 
 ## Install
