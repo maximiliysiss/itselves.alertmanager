@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>Itselves.AlertManager.Abstraction</Title>
+    <PackageTags>alert manager alertmanager abstraction</PackageTags>
+    <Description>Library for abstraction of alert manager</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/maximiliysiss/itselves.alertmanager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/maximiliysiss/itselves.alertmanager</RepositoryUrl>
+    <PackageId>Itselves.AlertManager.Abstraction</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+</Project>

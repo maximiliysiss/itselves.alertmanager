@@ -21,11 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA532A85
 		tests\Directory.Build.props = tests\Directory.Build.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager", "src\Itselves.AlertManager\Itselves.AlertManager.csproj", "{9C413619-E4D9-4FA2-A7DB-F917315121FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Abstraction", "src\Itselves.AlertManager.Abstraction\Itselves.AlertManager.Abstraction.csproj", "{9C413619-E4D9-4FA2-A7DB-F917315121FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Prometheus", "src\Itselves.AlertManager.Prometheus\Itselves.AlertManager.Prometheus.csproj", "{634DCD51-C3BE-4569-8F75-A0280F529159}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Prometheus.Tests", "tests\Itselves.AlertManager.Prometheus.Tests\Itselves.AlertManager.Prometheus.Tests.csproj", "{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Prometheus.IntegrationTests", "tests\Itselves.AlertManager.Prometheus.IntegrationTests\Itselves.AlertManager.Prometheus.IntegrationTests.csproj", "{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,7 @@ Global
 		{9C413619-E4D9-4FA2-A7DB-F917315121FC} = {160EDFDC-2016-4E22-857C-AAF0E808D79C}
 		{634DCD51-C3BE-4569-8F75-A0280F529159} = {160EDFDC-2016-4E22-857C-AAF0E808D79C}
 		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
+		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9C413619-E4D9-4FA2-A7DB-F917315121FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -53,5 +56,9 @@ Global
 		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

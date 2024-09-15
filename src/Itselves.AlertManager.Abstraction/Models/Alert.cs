@@ -1,4 +1,4 @@
-namespace Itselves.AlertManager.Models;
+namespace Itselves.AlertManager.Abstraction.Models;
 
 public class Alert(string name)
 {

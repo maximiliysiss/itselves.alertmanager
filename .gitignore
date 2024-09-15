@@ -1,5 +1,5 @@
 .idea/
 bin/
 obj/
-/.DS_Store
+.DS_Store
 /*.user

@@ -1,6 +1,7 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Itselves.AlertManager.Abstraction;
 using Itselves.AlertManager.Prometheus.Environment;
 using Itselves.AlertManager.Prometheus.Options;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,7 +24,8 @@ public static class ServiceCollectionExtensions
             .Configure(opt => configure?.Invoke(opt));
 
         services
-            .AddSingleton<IAlertManager, PrometheusAlertManager>();
+            .AddSingleton<IAlertManager, PrometheusAlertManager>()
+            .AddSingleton<ISupportWarmup>(sp => (ISupportWarmup)sp.GetRequiredService<IAlertManager>());
 
         services
             .AddHostedService<BackgroundWarmupWorker>();

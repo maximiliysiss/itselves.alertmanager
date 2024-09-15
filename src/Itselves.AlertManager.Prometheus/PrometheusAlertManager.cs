@@ -1,7 +1,8 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Itselves.AlertManager.Models;
+using Itselves.AlertManager.Abstraction;
+using Itselves.AlertManager.Abstraction.Models;
 using Itselves.AlertManager.Prometheus.Environment;
 using Itselves.AlertManager.Prometheus.Exceptions;
 using Itselves.AlertManager.Prometheus.Options;

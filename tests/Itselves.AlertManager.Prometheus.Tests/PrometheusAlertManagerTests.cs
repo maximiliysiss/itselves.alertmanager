@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Itselves.AlertManager.Extensions;
+using Itselves.AlertManager.Abstraction.Extensions;
 using Itselves.AlertManager.Prometheus.Environment;
 using Itselves.AlertManager.Prometheus.Exceptions;
 using Itselves.AlertManager.Prometheus.Options;
