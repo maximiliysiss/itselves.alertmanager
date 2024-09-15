@@ -24,6 +24,7 @@ public interface IAlertManager
 
 There are several packages for alert manager providers
 
-| Name                                                                               | Description         |
-|------------------------------------------------------------------------------------|---------------------|
-| [Itselves.AlertManager.Prometheus](src/Itselves.AlertManager.Prometheus/README.md) | Prometheus provider |
+| Name                                                                                 | Description           |
+|--------------------------------------------------------------------------------------|-----------------------|
+| [Itselves.AlertManager.ConsoleOnly](src/Itselves.AlertManager.ConsoleOnly/README.md) | Console only provider |
+| [Itselves.AlertManager.Prometheus](src/Itselves.AlertManager.Prometheus/README.md)   | Prometheus provider   |

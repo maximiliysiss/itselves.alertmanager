@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Prome
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Prometheus.IntegrationTests", "tests\Itselves.AlertManager.Prometheus.IntegrationTests\Itselves.AlertManager.Prometheus.IntegrationTests.csproj", "{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.ConsoleOnly", "src\Itselves.AlertManager.ConsoleOnly\Itselves.AlertManager.ConsoleOnly.csproj", "{FC181DD5-8211-4CB1-80F6-30C84F27C4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.ConsoleOnly.Tests", "tests\Itselves.AlertManager.ConsoleOnly.Tests\Itselves.AlertManager.ConsoleOnly.Tests.csproj", "{89779366-434C-4317-8556-68734E5EC9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.ConsoleOnly.IntegrationTests", "tests\Itselves.AlertManager.ConsoleOnly.IntegrationTests\Itselves.AlertManager.ConsoleOnly.IntegrationTests.csproj", "{815B3176-B098-4C3C-AC94-DEF5D653B076}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +48,9 @@ Global
 		{634DCD51-C3BE-4569-8F75-A0280F529159} = {160EDFDC-2016-4E22-857C-AAF0E808D79C}
 		{DE249DF1-FF81-4648-9BA3-C4A154BF8EAB} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
 		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
+		{FC181DD5-8211-4CB1-80F6-30C84F27C4B3} = {160EDFDC-2016-4E22-857C-AAF0E808D79C}
+		{89779366-434C-4317-8556-68734E5EC9A5} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
+		{815B3176-B098-4C3C-AC94-DEF5D653B076} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9C413619-E4D9-4FA2-A7DB-F917315121FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,5 +69,17 @@ Global
 		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0CE0DB5-B2E0-4163-9D10-849BE23D03CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC181DD5-8211-4CB1-80F6-30C84F27C4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC181DD5-8211-4CB1-80F6-30C84F27C4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC181DD5-8211-4CB1-80F6-30C84F27C4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC181DD5-8211-4CB1-80F6-30C84F27C4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89779366-434C-4317-8556-68734E5EC9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89779366-434C-4317-8556-68734E5EC9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89779366-434C-4317-8556-68734E5EC9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89779366-434C-4317-8556-68734E5EC9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815B3176-B098-4C3C-AC94-DEF5D653B076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815B3176-B098-4C3C-AC94-DEF5D653B076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815B3176-B098-4C3C-AC94-DEF5D653B076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815B3176-B098-4C3C-AC94-DEF5D653B076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
