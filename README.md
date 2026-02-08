@@ -31,3 +31,4 @@ There are several packages for alert manager providers
 | [Itselves.AlertManager.ConsoleOnly](src/Itselves.AlertManager.ConsoleOnly/README.md) | Console only provider |
 | [Itselves.AlertManager.Prometheus](src/Itselves.AlertManager.Prometheus/README.md)   | Prometheus provider   |
 | [Itselves.AlertManager.Mail](src/Itselves.AlertManager.Mail/README.md)               | Mail provider         |
+| [Itselves.AlertManager.Telegram](src/Itselves.AlertManager.Telegram/README.md)       | Telegram provider     |

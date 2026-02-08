@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Mail.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Abstraction.IntegrationTests", "tests\Itselves.AlertManager.Abstraction.IntegrationTests\Itselves.AlertManager.Abstraction.IntegrationTests.csproj", "{112816C1-1A32-46DD-ABE8-B24098D7EBCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Telegram.Tests", "tests\Itselves.AlertManager.Telegram.Tests\Itselves.AlertManager.Telegram.Tests.csproj", "{8696C98C-AFBF-4C8C-B59E-8DE337BB4CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itselves.AlertManager.Telegram.IntegrationTests", "tests\Itselves.AlertManager.Telegram.IntegrationTests\Itselves.AlertManager.Telegram.IntegrationTests.csproj", "{D0B340D2-B55B-4BE9-8486-5A12E3965C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,8 @@ Global
 		{7250EF33-B30E-46EF-AB31-E83632E6ECAC} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
 		{D8ABEDB2-D34C-4022-B193-CF13B347F3CE} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
 		{112816C1-1A32-46DD-ABE8-B24098D7EBCA} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
+		{8696C98C-AFBF-4C8C-B59E-8DE337BB4CEE} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
+		{D0B340D2-B55B-4BE9-8486-5A12E3965C3B} = {CA532A85-85FC-4DD7-B44D-F9203A01C09C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9C413619-E4D9-4FA2-A7DB-F917315121FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -125,5 +131,13 @@ Global
 		{112816C1-1A32-46DD-ABE8-B24098D7EBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{112816C1-1A32-46DD-ABE8-B24098D7EBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{112816C1-1A32-46DD-ABE8-B24098D7EBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8696C98C-AFBF-4C8C-B59E-8DE337BB4CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8696C98C-AFBF-4C8C-B59E-8DE337BB4CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8696C98C-AFBF-4C8C-B59E-8DE337BB4CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8696C98C-AFBF-4C8C-B59E-8DE337BB4CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B340D2-B55B-4BE9-8486-5A12E3965C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B340D2-B55B-4BE9-8486-5A12E3965C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B340D2-B55B-4BE9-8486-5A12E3965C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B340D2-B55B-4BE9-8486-5A12E3965C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

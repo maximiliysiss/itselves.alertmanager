@@ -49,9 +49,9 @@ jobs:
         runs-on: ubuntu-latest
         services:
             wiremock:
-                image: wiremock/wiremock:3.7.0
+                image: sheyenrath/wiremock.net
                 ports:
-                    - 8080:8080
+                    - 8080:80
             smtp:
                 image: mailhog/mailhog:v1.0.1
                 ports:
