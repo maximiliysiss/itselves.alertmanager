@@ -26,6 +26,8 @@ public interface IAlertManager
 
 There are several packages for alert manager providers
 
+> You can use several providers in one application. They will be called in parallel.
+
 | Name                                                                                 | Description           |
 |--------------------------------------------------------------------------------------|-----------------------|
 | [Itselves.AlertManager.ConsoleOnly](src/Itselves.AlertManager.ConsoleOnly/README.md) | Console only provider |
