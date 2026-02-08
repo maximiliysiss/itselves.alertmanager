@@ -22,7 +22,7 @@ internal sealed class ConsoleOnlyAlertManager : IAlertManager
 
     public Task AlertAsync(Alert alert, CancellationToken cancellationToken)
     {
-        _logger.Log(_options.LogLevel, $"Alert: {alert}", alert);
+        _logger.Log(_options.LogLevel, "Alert: {Alert}", alert);
         return Task.CompletedTask;
     }
 }

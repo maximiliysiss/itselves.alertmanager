@@ -1,5 +1,5 @@
 using System;
-using Itselves.AlertManager.Abstraction;
+using Itselves.AlertManager.Abstraction.Extensions;
 using Itselves.AlertManager.ConsoleOnly.Options;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,7 +17,7 @@ public static class ServiceCollectionExtensions
             .Configure(opt => configure?.Invoke(opt));
 
         services
-            .AddSingleton<IAlertManager, ConsoleOnlyAlertManager>();
+            .AddAlertManager<ConsoleOnlyAlertManager>();
 
         return services;
     }

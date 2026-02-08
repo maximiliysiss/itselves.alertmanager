@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>Itselves.AlertManager.Mail</Title>
+    <PackageTags>alert manager alertmanager mail smtp</PackageTags>
+    <Description>Library for alert manager which use SMTP mail as a provider</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/maximiliysiss/itselves.alertmanager/tree/master/src/Itselves.AlertManager.Mail</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/maximiliysiss/itselves.alertmanager/tree/master/src/Itselves.AlertManager.Mail</RepositoryUrl>
+    <PackageId>Itselves.AlertManager.Mail</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Itselves.AlertManager.Abstraction\Itselves.AlertManager.Abstraction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
